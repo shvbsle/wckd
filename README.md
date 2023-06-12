@@ -1,7 +1,13 @@
 # wckd
-evil ml lib in pure rust
+wicked fast ml lib in pure rust.
 
-### Development
+Philosophy:
+1. Usability
+2. Extreme performance
+3. Cuss words in logs
+
+
+## Development
 
 1. Setup Env
 
@@ -20,4 +26,16 @@ Open a python shell now:
 
 ```python
 import wckd
+```
+
+## Usage
+
+### Matrix Multiplication
+
+```python
+import wckd
+a1 = wckd.array([1, 2, 3], )
+a2 = wckd.array([3, 4, 5])
+
+a3 = wckd.dot(a1, a2)
 ```
