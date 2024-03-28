@@ -1,7 +1,7 @@
 # wckd
-wicked fast ml lib in pure rust.
+wicked fast ml lib in rust with no rules.
 
-Philosophy:
+Rough Philosophy:
 1. Usability
 2. Extreme performance
 3. Cuss words in logs
@@ -12,7 +12,7 @@ Philosophy:
 1. Setup Env
 
 ```bash
-python3.7 -m venv .env
+python3 -m venv .env
 source .env/bin/activate
 ```
 
@@ -34,7 +34,7 @@ import wckd
 
 ```python
 import wckd
-a1 = wckd.array([1, 2, 3], )
+a1 = wckd.array([1, 2, 3])
 a2 = wckd.array([3, 4, 5])
 
 a3 = wckd.dot(a1, a2)
